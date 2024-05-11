@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: demo
+
+grpc:
+  client:
+    greetingsService:
+      address: static://localhost:9090
+      negotiation-type: plaintext
